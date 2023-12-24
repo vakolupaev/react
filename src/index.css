@@ -1,0 +1,58 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #1f1f1f;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+button {
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 8px 16px;
+	color: #000000;
+	border: none;
+	outline: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.newTask {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+.newTask input {
+	padding: 8px;
+	background: none;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	color: #ffffff;
+}
+
+.tasks {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	background: #4f4f4f;
+	border-radius: 8px;
+	padding: 16px;
+	width: 100%;
+}
+
+.task {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	align-items: center;
+	justify-content: space-between;
+}
